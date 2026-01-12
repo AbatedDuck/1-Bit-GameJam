@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>1 Bit Game Jam</title>
+    <style>
+    canvas {
+        image-rendering: pixelated; 
+        image-rendering: crisp-edges;
+
+        width: 960px;
+        height: 540px;
+        background: #29262b;
+        outline: none;
+        
+        -webkit-tap-highlight-color: transparent; 
+        user-select: none;
+    }
+    body { 
+        background: #111; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh; 
+        margin: 0; 
+        overflow: hidden;
+    }
+</style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="640" height="360"></canvas>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
